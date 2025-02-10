@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     background-color: lightpink;
     text-align: center;
+    font-family: "Abril Fatface";
 }
 
 .container {
@@ -20,9 +21,43 @@ body {
     margin: 50px auto 0 auto;
 }
 
+#kuromi-gif {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 3rem;
+}
 
 .btn-container {
     display: flex;
     justify-content: center;
     gap: 100px;
+}
+
+button {
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-family: "Roboto";
+    font-weight: 500;
+    cursor: pointer;
+    min-width: 100px;
+    max-width: 500px;
+    padding: 10px 15px;
+    transition: transform 0.1s ease;
+}
+
+button:hover {
+    scale: 1.05;
+}
+
+#yes-btn {
+    background-color: green;
+}
+
+#no-btn {
+    background-color: red;
 }
