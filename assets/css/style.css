@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     border: solid 1px red;
 }
@@ -34,7 +36,7 @@ h1 {
 .btn-container {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 75px;
 }
 
 button {
@@ -42,12 +44,11 @@ button {
     color: white;
     font-size: 1rem;
     font-family: "Roboto";
-    font-weight: 500;
+    font-weight: 700;
     cursor: pointer;
     min-width: 100px;
     max-width: 500px;
     padding: 10px 15px;
-    transition: transform 0.1s ease;
 }
 
 button:hover {
