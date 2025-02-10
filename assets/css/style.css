@@ -57,6 +57,8 @@ button:hover {
 
 #yes-btn {
     background-color: green;
+    /* the point around which a transformation is applied */
+    transform-origin: center top;
 }
 
 #no-btn {
