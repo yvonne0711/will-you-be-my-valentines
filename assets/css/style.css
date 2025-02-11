@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root {
-    --gap-scale-factor: 250;
-}
-
-* {
-    border: solid 1px red;
-}
 
 html, body {
     height: 100%;
@@ -17,7 +10,8 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: lightpink;
+    background: repeat url(../images/heart-love.gif), linear-gradient(#ffffff, #f9d6d6);   
+     background-size: auto, cover; /*image repeat and gradient cover entire area */
     text-align: center;
     font-family: "Abril Fatface";
 }
