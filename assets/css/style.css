@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --gap-scale-factor: 250;
+}
+
 * {
     border: solid 1px red;
 }
@@ -49,10 +53,11 @@ button {
     min-width: 100px;
     max-width: 500px;
     padding: 10px 15px;
+    transition: transform 0.3s ease;
 }
 
 button:hover {
-    scale: 1.05;
+    scale: 1.1;
 }
 
 #yes-btn {
